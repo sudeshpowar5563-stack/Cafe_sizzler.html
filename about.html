@@ -19,9 +19,6 @@
             text-align: center;
         }
 
-        .d_shadow {
-            filter: drop-shadow(3px 4px 4px red)
-        }
 
         .para2 {
             border: 3px solid red;
@@ -37,23 +34,30 @@
             border-left-color: red;
 
         }
-         body {
-            background-color: black;
-            background-image: url(img/12);
-            background-repeat: no-repeat;
-            background-size: cover;
-            background-position: center;
 
+
+        .img_ratio {
+            width: 400px;
+            height: 400px;
         }
 
-
+       
+        .linear {
+            height: 2500px;
+            background: linear-gradient(rgb(226, 221, 221), rgb(178, 55, 55));
+        }
+        img{
+            filter: drop-shadow(5px 5px 10px red);
+        }
+        
          
-
+       
     </style>
 </head>
 
 <body>
-    
+    <div class="linear">
+
         <nav>
             <a href="index.html">home</a>
             <a href="about.html">about</a>
@@ -65,13 +69,13 @@
             <a href="https://www.youtube.com/" target="_blank">youtube</a>
             <a href="https://www.instagram.com/" target="_blank">instagram</a>
         </nav>
-        <marquee bgcolor="pink" direction="right">
-            <h1>welcome to cafe sizzler</h1>
+        <marquee  direction="right">
+            <h1><strong>welcome to cafe sizzler</strong></h1>
 
         </marquee>>
-        <img src="img/cup1" width="300" height="300" alt="cup" class="d_shadow img_ratio" />
+        <img src="img/png3.png" width="300" height="300" alt="cup" class="d_shadow img_ratio" />
 
-        <h1 class=" t_shadow"><u>Veg Club Grill</u></h1>
+        <h1 class=" t_shadow" ><u>Veg Club Grill</u></h1>
         <p class="para2">"Veg Club Grill" is a general descriptive term for restaurants that offer vegetarian food,
             especially grilled
             items and club sandwiches, rather than a single, specific restaurant chain with a unified history.
@@ -110,8 +114,8 @@
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             referrerpolicy="strict-origin-when-cross-origin" allowfullscreen class="b_color b_radius"></iframe>
         <p align="Centre"><mark>&copy;2025 cafe sizzler |All right reserved</mark></p>
-   
 
+    </div>
 
 </body>
 
